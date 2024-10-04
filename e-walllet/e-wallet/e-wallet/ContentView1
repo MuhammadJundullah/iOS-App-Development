@@ -1,0 +1,1630 @@
+ZStack() {
+  HStack(alignment: .top, spacing: 112) {
+    HStack(spacing: 0) {
+      Text("9:41")
+        .font(Font.custom("Bellota", size: 17).weight(.bold))
+        .lineSpacing(22)
+        .foregroundColor(.black)
+    }
+    .padding(
+      EdgeInsets(top: 18.34, leading: 0, bottom: 13.66, trailing: 0)
+    )
+    .frame(height: 54)
+    HStack(alignment: .top, spacing: 7.50) {
+      ZStack() {
+        Rectangle()
+          .foregroundColor(.clear)
+          .frame(width: 25, height: 13)
+          .cornerRadius(4.30)
+          .overlay(
+            RoundedRectangle(cornerRadius: 4.30)
+              .inset(by: 0.50)
+              .stroke(.black, lineWidth: 0.50)
+          )
+          .offset(x: -1.16, y: 0)
+          .opacity(0.35)
+        Rectangle()
+          .foregroundColor(.clear)
+          .frame(width: 21, height: 9)
+          .background(.black)
+          .cornerRadius(2.50)
+          .offset(x: -1.16, y: 0)
+      }
+      .frame(width: 27.33, height: 13)
+    }
+    .padding(
+      EdgeInsets(top: 23, leading: 30, bottom: 18, trailing: 32.17)
+    )
+    .frame(width: 140.50)
+  }
+  .frame(width: 393, height: 54)
+  .cornerRadius(30)
+  .offset(x: 0, y: -399)
+  Rectangle()
+    .foregroundColor(.clear)
+    .frame(width: 366, height: 47)
+    .background(Color(red: 0.05, green: 0.48, blue: 0.77))
+    .cornerRadius(35)
+    .offset(x: 0.50, y: 358.50)
+  Text("Lanjutkan")
+    .font(Font.custom("Poppins", size: 20).weight(.bold))
+    .lineSpacing(22)
+    .foregroundColor(.white)
+    .offset(x: 0, y: 365)
+  Rectangle()
+    .foregroundColor(.clear)
+    .frame(width: 114, height: 132)
+    .offset(x: -116.50, y: -66)
+  Text("Solusi Cerdas Finansial")
+    .font(Font.custom("ADLaM Display", size: 24))
+    .lineSpacing(22)
+    .foregroundColor(.white)
+    .offset(x: 0.50, y: 287)
+  Text("Nikmati berbagai layanan finansial dan kemudahan")
+    .font(Font.custom("Poppins", size: 12))
+    .lineSpacing(22)
+    .foregroundColor(.white)
+    .offset(x: 0.50, y: 306)
+  Text("E-Wallet")
+    .font(Font.custom("Aclonica", size: 35))
+    .lineSpacing(22)
+    .foregroundColor(.white)
+    .offset(x: 0, y: -264.50)
+}
+.frame(width: 393, height: 852)
+.background(Color(red: 0.10, green: 0.09, blue: 0.24))
+.cornerRadius(25)
+ZStack() {
+  Group {
+    HStack(alignment: .top, spacing: 112) {
+      HStack(spacing: 0) {
+        Text("9:41")
+          .font(Font.custom("Bellota", size: 17).weight(.bold))
+          .lineSpacing(22)
+          .foregroundColor(.black)
+      }
+      .padding(
+        EdgeInsets(top: 18.34, leading: 0, bottom: 13.66, trailing: 0)
+      )
+      .frame(height: 54)
+      HStack(alignment: .top, spacing: 7.50) {
+        ZStack() {
+          Rectangle()
+            .foregroundColor(.clear)
+            .frame(width: 25, height: 13)
+            .cornerRadius(4.30)
+            .overlay(
+              RoundedRectangle(cornerRadius: 4.30)
+                .inset(by: 0.50)
+                .stroke(.black, lineWidth: 0.50)
+            )
+            .offset(x: -1.16, y: 0)
+            .opacity(0.35)
+          Rectangle()
+            .foregroundColor(.clear)
+            .frame(width: 21, height: 9)
+            .background(.black)
+            .cornerRadius(2.50)
+            .offset(x: -1.16, y: 0)
+        }
+        .frame(width: 27.33, height: 13)
+      }
+      .padding(
+        EdgeInsets(top: 23, leading: 30, bottom: 18, trailing: 32.17)
+      )
+      .frame(width: 140.50)
+    }
+    .frame(width: 393, height: 54)
+    .cornerRadius(30)
+    .offset(x: 0, y: -394)
+    Text("welcome back!")
+      .font(Font.custom("Poppins", size: 24).weight(.bold))
+      .foregroundColor(.white)
+      .offset(x: -9, y: -314.50)
+    HStack(spacing: 0) {
+      HStack(spacing: 0) {
+
+      }
+      .padding(EdgeInsets(top: 4.76, leading: 0, bottom: 4.76, trailing: 0))
+      .frame(maxWidth: .infinity, maxHeight: .infinity)
+    }
+    .frame(width: 24, height: 22.86)
+    .offset(x: -167.50, y: -360.57)
+    ZStack() {
+      Text("email")
+        .font(Font.custom("Poppins", size: 20).weight(.bold))
+        .foregroundColor(.white)
+        .offset(x: -110.67, y: -25.39)
+        .opacity(0.40)
+      Text("dindarawrr999@gmail.com")
+        .font(Font.custom("Poppins", size: 14).weight(.bold))
+        .foregroundColor(Color(red: 0, green: 0, blue: 0.04))
+        .offset(x: -18.50, y: 24.50)
+        .opacity(0.40)
+    }
+    .frame(width: 307, height: 79)
+    .offset(x: -28, y: -238.50)
+    ZStack() {
+      Rectangle()
+        .foregroundColor(.clear)
+        .frame(width: 22.90, height: 27)
+        .background(
+          AsyncImage(url: URL(string: "https://via.placeholder.com/23x27"))
+        )
+        .offset(x: 136.11, y: 20)
+      Text(".........")
+        .font(Font.custom("Poppins", size: 24).weight(.bold))
+        .foregroundColor(Color(red: 0, green: 0, blue: 0.04))
+        .offset(x: -47.92, y: 15.50)
+        .opacity(0.40)
+      Text("password")
+        .font(Font.custom("Poppins", size: 20).weight(.bold))
+        .foregroundColor(Color(red: 0.99, green: 0.98, blue: 0.98))
+        .offset(x: -61.06, y: -24.50)
+        .opacity(0.40)
+    }
+    .frame(width: 307, height: 79)
+    .offset(x: -28, y: -148.50)
+    Text("Lupa alamat email?")
+      .font(Font.custom("Poppins", size: 12))
+      .foregroundColor(.white)
+      .offset(x: -34.50, y: 129)
+    Text("Klik Disini")
+      .font(Font.custom("Poppins", size: 12).weight(.bold))
+      .foregroundColor(Color(red: 0.05, green: 0.65, blue: 0.79))
+      .offset(x: 60.50, y: 129)
+    Rectangle()
+      .foregroundColor(.clear)
+      .frame(width: 393, height: 156)
+      .background(.white)
+      .cornerRadius(25)
+      .offset(x: 0, y: 348)
+    Text("Dengan masuk atau daftar, kamu udah setuju sama ")
+      .font(Font.custom("Poppins", size: 13))
+      .foregroundColor(.black)
+      .offset(x: 0.50, y: 291)
+    Text("Ketentuan Layanan")
+      .font(Font.custom("Poppins", size: 13).weight(.bold))
+      .foregroundColor(Color(red: 0.06, green: 0.19, blue: 0.67))
+      .offset(x: -104.50, y: 306)
+  }Group {
+    Text("dan")
+      .font(Font.custom("Poppins", size: 13))
+      .foregroundColor(.black)
+      .offset(x: -21.50, y: 306)
+    Text("Kebijakan Privasi")
+      .font(Font.custom("Poppins", size: 13).weight(.bold))
+      .foregroundColor(Color(red: 0.06, green: 0.19, blue: 0.67))
+      .offset(x: 53, y: 306)
+    Text("E-Wallet.")
+      .font(Font.custom("Poppins", size: 13))
+      .foregroundColor(.black)
+      .offset(x: 143.50, y: 306)
+    ZStack() {
+      Text("Lanjutkan")
+        .font(Font.custom("Poppins", size: 24).weight(.bold))
+        .foregroundColor(.white)
+        .offset(x: -7.50, y: -9.50)
+      Rectangle()
+        .foregroundColor(.clear)
+        .frame(width: 366, height: 47)
+        .background(Color(red: 0.05, green: 0.48, blue: 0.77))
+        .cornerRadius(35)
+        .offset(x: 0, y: 4)
+    }
+    .frame(width: 366, height: 55)
+    .offset(x: 7.50, y: 367.50)
+    Text("Lanjutkan")
+      .font(Font.custom("Poppins", size: 16).weight(.bold))
+      .foregroundColor(.white)
+      .offset(x: 0, y: 372)
+    Rectangle()
+      .foregroundColor(.clear)
+      .frame(width: 49, height: 51)
+      .background(
+        AsyncImage(url: URL(string: "https://via.placeholder.com/49x51"))
+      )
+      .offset(x: 1, y: 169.50)
+    HStack(spacing: 0) {
+
+    }
+    .padding(
+      EdgeInsets(top: 4.25, leading: 4.38, bottom: 4.25, trailing: 4.38)
+    )
+    .frame(width: 35, height: 34)
+    .offset(x: 154, y: -132)
+  }
+}
+.frame(width: 393, height: 852)
+.background(Color(red: 0.10, green: 0.09, blue: 0.24))
+.cornerRadius(25)
+ZStack() {
+  Group {
+    HStack(alignment: .top, spacing: 112) {
+      HStack(spacing: 0) {
+        Text("9:41")
+          .font(Font.custom("Bellota", size: 17).weight(.bold))
+          .lineSpacing(22)
+          .foregroundColor(.black)
+      }
+      .padding(
+        EdgeInsets(top: 18.34, leading: 0, bottom: 13.66, trailing: 0)
+      )
+      .frame(height: 54)
+      HStack(alignment: .top, spacing: 7.50) {
+        ZStack() {
+          Rectangle()
+            .foregroundColor(.clear)
+            .frame(width: 25, height: 13)
+            .cornerRadius(4.30)
+            .overlay(
+              RoundedRectangle(cornerRadius: 4.30)
+                .inset(by: 0.50)
+                .stroke(.black, lineWidth: 0.50)
+            )
+            .offset(x: -1.16, y: 0)
+            .opacity(0.35)
+          Rectangle()
+            .foregroundColor(.clear)
+            .frame(width: 21, height: 9)
+            .background(.black)
+            .cornerRadius(2.50)
+            .offset(x: -1.16, y: 0)
+        }
+        .frame(width: 27.33, height: 13)
+      }
+      .padding(
+        EdgeInsets(top: 23, leading: 30, bottom: 18, trailing: 32.17)
+      )
+      .frame(width: 140.50)
+    }
+    .frame(width: 393, height: 54)
+    .cornerRadius(30)
+    .offset(x: 0, y: -394)
+    Text("Masuk atau Daftar")
+      .font(Font.custom("Poppins", size: 24).weight(.bold))
+      .foregroundColor(.white)
+      .offset(x: -9, y: -314.50)
+    HStack(spacing: 0) {
+      HStack(spacing: 0) {
+
+      }
+      .padding(EdgeInsets(top: 4.76, leading: 0, bottom: 4.76, trailing: 0))
+      .frame(maxWidth: .infinity, maxHeight: .infinity)
+    }
+    .frame(width: 24, height: 22.86)
+    .offset(x: -167.50, y: -360.57)
+    Text("Masuk atau daftar cuma butuh email aja")
+      .font(Font.custom("Poppins", size: 15))
+      .foregroundColor(.white)
+      .offset(x: 87, y: -273)
+    ZStack() {
+      Rectangle()
+        .foregroundColor(.clear)
+        .frame(width: 362, height: 48)
+        .background(Color(red: 0.48, green: 0.47, blue: 0.67))
+        .cornerRadius(10)
+        .offset(x: 0, y: 0)
+      Rectangle()
+        .foregroundColor(.clear)
+        .frame(width: 51, height: 48)
+        .background(Color(red: 0.15, green: 0.14, blue: 0.31))
+        .cornerRadius(10)
+        .offset(x: -155.50, y: 0)
+      Rectangle()
+        .foregroundColor(.clear)
+        .frame(width: 43, height: 45)
+        .background(
+          AsyncImage(url: URL(string: "https://via.placeholder.com/43x45"))
+        )
+        .offset(x: -155.50, y: -1.50)
+      Text("Contoh@gmail.com")
+        .font(Font.custom("Poppins", size: 15))
+        .foregroundColor(.white)
+        .offset(x: -35, y: 0.50)
+        .opacity(0.40)
+    }
+    .frame(width: 362, height: 48)
+    .offset(x: 0.50, y: -230)
+    Text("Lupa alamat email?")
+      .font(Font.custom("Poppins", size: 12))
+      .foregroundColor(.white)
+      .offset(x: -116.50, y: -190)
+    Text("Klik Disini")
+      .font(Font.custom("Poppins", size: 12))
+      .foregroundColor(Color(red: 0, green: 0.84, blue: 1))
+      .offset(x: -24.50, y: -190)
+    Rectangle()
+      .foregroundColor(.clear)
+      .frame(width: 393, height: 235)
+      .background(.white)
+      .cornerRadius(25)
+      .offset(x: 0, y: 308.50)
+    Rectangle()
+      .foregroundColor(.clear)
+      .frame(width: 366, height: 47)
+      .background(Color(red: 0, green: 0.55, blue: 0.92))
+      .cornerRadius(35)
+      .offset(x: 7.50, y: 357.50)
+    ZStack() {
+      Text("pastiin email untuk E-Wallet kamu")
+        .font(Font.custom("Poppins", size: 13))
+        .foregroundColor(.black)
+        .offset(x: -70, y: -7.50)
+      Text("contoh@gmail.com")
+        .font(Font.custom("Poppins", size: 13).weight(.bold))
+        .foregroundColor(Color(red: 0.03, green: 0.03, blue: 0.03))
+        .offset(x: 114.50, y: -7.50)
+      Text("udah aktif dan terhubung dengan Email.")
+        .font(Font.custom("Poppins", size: 13))
+        .foregroundColor(.black)
+        .offset(x: -50, y: 7.50)
+    }
+    .frame(width: 363, height: 35)
+    .offset(x: 4, y: 253.50)
+  }Group {
+    Text("Kirim Ulang")
+      .font(Font.custom("Poppins", size: 13).weight(.bold))
+      .foregroundColor(Color(red: 0.01, green: 0.01, blue: 0.02))
+      .offset(x: 15, y: 399)
+    Text("Tidak menerima kode?")
+      .font(Font.custom("Poppins", size: 13))
+      .foregroundColor(.black)
+      .offset(x: -101, y: 399)
+    Text("Kirim kode ke email")
+      .font(Font.custom("Poppins", size: 15).weight(.bold))
+      .foregroundColor(.white)
+      .offset(x: 0, y: 358.50)
+    Text("Kode akan dikirim ke Email")
+      .font(Font.custom("Poppins", size: 13).weight(.bold))
+      .foregroundColor(Color(red: 0.05, green: 0.04, blue: 0.04))
+      .offset(x: -85, y: 229)
+    Rectangle()
+      .foregroundColor(.clear)
+      .frame(width: 366, height: 41)
+      .background(Color(red: 0.09, green: 0.91, blue: 0.17).opacity(0.64))
+      .cornerRadius(10)
+      .offset(x: 0.50, y: 299.50)
+    Text("Tenang, gak ada pesan promosi atau spam.")
+      .font(Font.custom("Rounded Mplus 1c Bold", size: 13).weight(.bold))
+      .foregroundColor(Color(red: 0.07, green: 0.40, blue: 0.07))
+      .offset(x: -9, y: 299.50)
+    Rectangle()
+      .foregroundColor(.clear)
+      .frame(width: 26, height: 26)
+      .background(
+        AsyncImage(url: URL(string: "https://via.placeholder.com/26x26"))
+      )
+      .offset(x: -162.50, y: 300)
+  }
+}
+.frame(width: 393, height: 852)
+.background(Color(red: 0.10, green: 0.09, blue: 0.24))
+.cornerRadius(25)
+ZStack() {
+  Group {
+    HStack(alignment: .top, spacing: 112) {
+      HStack(spacing: 0) {
+        Text("9:41")
+          .font(Font.custom("Bellota", size: 17).weight(.bold))
+          .lineSpacing(22)
+          .foregroundColor(.black)
+      }
+      .padding(
+        EdgeInsets(top: 18.34, leading: 0, bottom: 13.66, trailing: 0)
+      )
+      .frame(height: 54)
+      HStack(alignment: .top, spacing: 7.50) {
+        ZStack() {
+          Rectangle()
+            .foregroundColor(.clear)
+            .frame(width: 25, height: 13)
+            .cornerRadius(4.30)
+            .overlay(
+              RoundedRectangle(cornerRadius: 4.30)
+                .inset(by: 0.50)
+                .stroke(.black, lineWidth: 0.50)
+            )
+            .offset(x: -1.16, y: 0)
+            .opacity(0.35)
+          Rectangle()
+            .foregroundColor(.clear)
+            .frame(width: 21, height: 9)
+            .background(.black)
+            .cornerRadius(2.50)
+            .offset(x: -1.16, y: 0)
+        }
+        .frame(width: 27.33, height: 13)
+      }
+      .padding(
+        EdgeInsets(top: 23, leading: 30, bottom: 18, trailing: 32.17)
+      )
+      .frame(width: 140.50)
+    }
+    .frame(width: 393, height: 54)
+    .cornerRadius(30)
+    .offset(x: 0, y: -399)
+    HStack(spacing: 123) {
+      HStack(alignment: .top, spacing: 13) {
+        Ellipse()
+          .foregroundColor(.clear)
+          .frame(width: 44, height: 44)
+          .background(
+            AsyncImage(url: URL(string: "https://via.placeholder.com/44x44"))
+          )
+          .overlay(
+            Ellipse()
+              .inset(by: -1.50)
+              .stroke(Color(red: 0.05, green: 0.65, blue: 0.76), lineWidth: 1.50)
+          )
+        Text("Selamat Datang\nHakim alfitra")
+          .font(Font.custom("Poppins", size: 15).weight(.medium))
+          .foregroundColor(Color(red: 1, green: 1, blue: 1).opacity(0.87))
+      }
+      .padding(EdgeInsets(top: 2, leading: 3, bottom: 0, trailing: 0))
+      HStack(spacing: 10) {
+        HStack(spacing: 0) {
+          Rectangle()
+            .foregroundColor(.clear)
+            .frame(width: 17, height: 20)
+            .background(
+              AsyncImage(url: URL(string: "https://via.placeholder.com/17x20"))
+            )
+        }
+        .padding(EdgeInsets(top: 2, leading: 4, bottom: 2, trailing: 3))
+        .frame(width: 24, height: 24)
+      }
+    }
+    .offset(x: 0.50, y: -332)
+    HStack(spacing: 0) {
+      HStack(spacing: 0) {
+        VStack(spacing: 0) {
+          ZStack() {
+            ZStack() { }
+            .frame(width: 36.64, height: 38.93)
+            .offset(x: -3.13, y: -4.03)
+            ZStack() {
+              Ellipse()
+                .foregroundColor(.clear)
+                .frame(width: 4.34, height: 4.34)
+                .background(
+                  LinearGradient(gradient: Gradient(colors: [.white, Color(red: 1, green: 1, blue: 1).opacity(0.20)]), startPoint: .trailing, endPoint: .leading)
+                )
+                .overlay(
+                  Ellipse()
+                    .inset(by: 0.05)
+                    .stroke(
+                      Color(red: 1, green: 1, blue: 1).opacity(0.50), lineWidth: 0.05
+                    )
+                )
+                .offset(x: 8.68, y: -0.12)
+                .shadow(
+                  color: Color(red: 0.15, green: 0.52, blue: 0.90, opacity: 0.50), radius: 4.82, x: 2.41, y: 2.41
+                )
+            }
+            .frame(width: 42.90, height: 35.43)
+            .offset(x: 0, y: 5.78)
+          }
+          .frame(width: 42.90, height: 47)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+      }
+      .padding(EdgeInsets(top: 2, leading: 4, bottom: 1, trailing: 3.10))
+      .frame(maxWidth: .infinity, maxHeight: .infinity)
+    }
+    .padding(
+      EdgeInsets(top: 10, leading: 9.50, bottom: 10, trailing: 10.50)
+    )
+    .frame(width: 70, height: 70)
+    .offset(x: 137.50, y: -185)
+    Text("Dompet")
+      .font(Font.custom("Asap", size: 13).weight(.semibold))
+      .tracking(0.35)
+      .lineSpacing(28)
+      .foregroundColor(Color(red: 1, green: 1, blue: 1).opacity(0.50))
+      .offset(x: 138, y: -136)
+    VStack(alignment: .trailing, spacing: 9) {
+      HStack(spacing: 0) {
+        HStack(spacing: 0) {
+          ZStack() {
+            ZStack() { }
+            .frame(width: 43.01, height: 43.01)
+            .offset(x: -2.50, y: -1)
+            ZStack() {
+              Rectangle()
+                .foregroundColor(.clear)
+                .frame(width: 19.18, height: 20.74)
+                .background(
+                  AsyncImage(url: URL(string: "https://via.placeholder.com/19x21"))
+                )
+                .overlay(
+                  Rectangle()
+                    .inset(by: 0.09)
+                    .stroke(.white, lineWidth: 0.09)
+                )
+                .offset(x: 0.01, y: -0.01)
+                .shadow(
+                  color: Color(red: 0.05, green: 0.65, blue: 0.76, opacity: 0.50), radius: 4.41, x: 2.20, y: 2.20
+                )
+            }
+            .frame(width: 35.11, height: 35.11)
+            .offset(x: 6.45, y: 4.94)
+          }
+          .frame(width: 48.01, height: 45)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+      }
+      .padding(EdgeInsets(top: 3, leading: 1, bottom: 2, trailing: 0.99))
+      .frame(maxWidth: .infinity, minHeight: 50, maxHeight: 50)
+      Text("Riwayat")
+        .font(Font.custom("Asap", size: 13).weight(.semibold))
+        .tracking(0.35)
+        .lineSpacing(28)
+        .foregroundColor(Color(red: 1, green: 1, blue: 1).opacity(0.50))
+    }
+    .padding(EdgeInsets(top: 10, leading: 11, bottom: 0, trailing: 11.50))
+    .frame(height: 70)
+    .offset(x: 46.75, y: -185)
+    ZStack() {
+      Rectangle()
+        .foregroundColor(.clear)
+        .frame(width: 50, height: 50)
+        .offset(x: 0.25, y: 0)
+      ZStack() {
+        ZStack() { }
+        .frame(width: 46.53, height: 46.55)
+        .offset(x: -25.34, y: -0.52)
+        .rotationEffect(.degrees(-134.57))
+        ZStack() { }
+        .frame(width: 57.36, height: 57.39)
+        .offset(x: -2.46, y: 0)
+        .rotationEffect(.degrees(-134.57))
+      }
+      .frame(width: 62.27, height: 57.39)
+      .offset(x: 74.20, y: 29.72)
+      .rotationEffect(.degrees(-134.57))
+      Text("Top Up")
+        .font(Font.custom("Asap", size: 13).weight(.semibold))
+        .tracking(0.35)
+        .lineSpacing(28)
+        .foregroundColor(Color(red: 1, green: 1, blue: 1).opacity(0.50))
+        .offset(x: -3, y: 49)
+    }
+    .frame(width: 72.50, height: 70)
+    .offset(x: -46, y: -186)
+    ZStack() {
+      Rectangle()
+        .foregroundColor(.clear)
+        .frame(width: 50, height: 50)
+        .offset(x: -0.25, y: 0)
+      VStack(spacing: 0) {
+        ZStack() {
+          ZStack() { }
+          .frame(width: 34.16, height: 34.16)
+          .offset(x: -2.48, y: -7.92)
+          ZStack() {
+            Rectangle()
+              .foregroundColor(.clear)
+              .frame(width: 14.41, height: 2.48)
+              .background(
+                LinearGradient(gradient: Gradient(colors: [.white, Color(red: 1, green: 1, blue: 1).opacity(0.20)]), startPoint: .trailing, endPoint: .leading)
+              )
+              .cornerRadius(5.47)
+              .overlay(
+                RoundedRectangle(cornerRadius: 5.47)
+                  .inset(by: 0.10)
+                  .stroke(.white, lineWidth: 0.10)
+              )
+              .offset(x: 5.47, y: 1.25)
+              .rotationEffect(.degrees(45))
+              .shadow(
+                color: Color(red: 0.46, green: 0.06, blue: 0.81, opacity: 1), radius: 4.97, x: 2.48, y: 2.48
+              )
+          }
+          .frame(width: 42.11, height: 42.11)
+          .offset(x: 0, y: 3.94)
+        }
+        .frame(width: 42.11, height: 50)
+      }
+      .frame(width: 42.11, height: 50)
+      .offset(x: -0.19, y: 0)
+      Text("Transfer")
+        .font(Font.custom("Asap", size: 13).weight(.semibold))
+        .tracking(0.35)
+        .lineSpacing(28)
+        .foregroundColor(Color(red: 1, green: 1, blue: 1).opacity(0.50))
+        .offset(x: 0.25, y: 49)
+    }
+    .frame(width: 72.50, height: 70)
+    .offset(x: -138.25, y: -185)
+    ZStack() {
+      Rectangle()
+        .foregroundColor(.clear)
+        .frame(width: 347, height: 52)
+        .background(Color(red: 0.85, green: 0.85, blue: 0.85).opacity(0.10))
+        .cornerRadius(5)
+        .offset(x: 0, y: 0)
+      ZStack() {
+
+      }
+      .frame(width: 35, height: 35)
+      .offset(x: -153, y: 0.50)
+      HStack(spacing: 0) {
+
+      }
+      .padding(
+        EdgeInsets(top: 7.29, leading: 3.65, bottom: 7.29, trailing: 3.65)
+      )
+      .frame(width: 35, height: 35)
+      .offset(x: -151, y: 0.50)
+      Text("Rp")
+        .font(Font.custom("Asap", size: 20).weight(.semibold))
+        .tracking(0.35)
+        .lineSpacing(28)
+        .foregroundColor(Color(red: 1, green: 1, blue: 1).opacity(0.40))
+        .offset(x: -116, y: -0.50)
+    }
+    .frame(width: 347, height: 52)
+    .offset(x: -1, y: -263)
+    HStack(spacing: 0) {
+      HStack(alignment: .top, spacing: 60) {
+        Rectangle()
+          .foregroundColor(.clear)
+          .frame(width: 350, height: 139.76)
+          .background(
+            AsyncImage(url: URL(string: "https://via.placeholder.com/350x140"))
+          )
+        Rectangle()
+          .foregroundColor(.clear)
+          .frame(width: 350, height: 139.76)
+          .background(
+            AsyncImage(url: URL(string: "https://via.placeholder.com/350x140"))
+          )
+        Rectangle()
+          .foregroundColor(.clear)
+          .frame(width: 350, height: 139.76)
+          .background(
+            AsyncImage(url: URL(string: "https://via.placeholder.com/350x140"))
+          )
+        Rectangle()
+          .foregroundColor(.clear)
+          .frame(width: 350, height: 139.76)
+          .background(
+            AsyncImage(url: URL(string: "https://via.placeholder.com/350x140"))
+          )
+      }
+      .padding(EdgeInsets(top: 0, leading: 0, bottom: 0.24, trailing: 0))
+      .frame(minWidth: 1580, maxWidth: 1580, maxHeight: .infinity)
+    }
+    .frame(height: 140)
+    .offset(x: -1, y: -29)
+    .shadow(
+      color: Color(red: 0, green: 0, blue: 0, opacity: 0.25), radius: 4, y: 4
+    )
+    HStack(spacing: 0) {
+      VStack(alignment: .leading, spacing: 15) {
+        ZStack() {
+          Rectangle()
+            .foregroundColor(.clear)
+            .frame(width: 350, height: 104)
+            .background(Color(red: 0.10, green: 0.09, blue: 0.24))
+            .cornerRadius(5)
+            .offset(x: 0, y: 0)
+            .shadow(
+              color: Color(red: 0, green: 0, blue: 0, opacity: 0.25), radius: 4, y: 4
+            )
+          Text("Top up E-Wallet")
+            .font(Font.custom("Asap", size: 12).weight(.semibold))
+            .tracking(0.35)
+            .lineSpacing(28)
+            .foregroundColor(.white)
+            .offset(x: -122.50, y: -36)
+          ZStack() {
+            Group {
+              Text("link aja")
+                .font(Font.custom("Space Mono", size: 10).weight(.bold))
+                .tracking(0.35)
+                .lineSpacing(28)
+                .foregroundColor(.white)
+                .offset(x: 134, y: 18)
+              ZStack() {
+                Rectangle()
+                  .foregroundColor(.clear)
+                  .frame(width: 45, height: 45)
+                  .background(.white)
+                  .cornerRadius(8)
+                  .offset(x: -0, y: 0)
+              }
+              .frame(width: 45, height: 45)
+              .cornerRadius(8)
+              .overlay(
+                RoundedRectangle(cornerRadius: 8)
+                  .inset(by: -1)
+                  .stroke(Color(red: 0, green: 0, blue: 0).opacity(0.10), lineWidth: 1)
+              )
+              .offset(x: 134.50, y: -10.50)
+              Text("dana")
+                .font(Font.custom("Space Mono", size: 10).weight(.bold))
+                .tracking(0.35)
+                .lineSpacing(28)
+                .foregroundColor(.white)
+                .offset(x: 67, y: 18)
+              ZStack() {
+                Rectangle()
+                  .foregroundColor(.clear)
+                  .frame(width: 45, height: 45)
+                  .background(.white)
+                  .cornerRadius(8)
+                  .offset(x: -0, y: 0)
+                ZStack() {
+
+                }
+                .frame(width: 35, height: 10.01)
+                .offset(x: -1, y: -0.50)
+              }
+              .frame(width: 45, height: 45)
+              .cornerRadius(8)
+              .overlay(
+                RoundedRectangle(cornerRadius: 8)
+                  .inset(by: -1)
+                  .stroke(Color(red: 0, green: 0, blue: 0).opacity(0.10), lineWidth: 1)
+              )
+              .offset(x: 66.50, y: -10.50)
+              Text("shopee pay")
+                .font(Font.custom("Space Mono", size: 10).weight(.bold))
+                .tracking(0.35)
+                .lineSpacing(10)
+                .foregroundColor(.white)
+                .offset(x: -0.50, y: 23)
+              ZStack() {
+                Rectangle()
+                  .foregroundColor(.clear)
+                  .frame(width: 45, height: 45)
+                  .background(.white)
+                  .cornerRadius(8)
+                  .offset(x: 0, y: 0)
+                HStack(spacing: 0) {
+                  ZStack() {
+                    Group {
+
+                    }Group {
+
+                    }
+                  }
+                  .frame(width: 35, height: 15.32)
+                }
+                .frame(width: 35, height: 15.32)
+                .offset(x: 1, y: 1.16)
+              }
+              .frame(width: 45, height: 45)
+              .cornerRadius(8)
+              .overlay(
+                RoundedRectangle(cornerRadius: 8)
+                  .inset(by: -1)
+                  .stroke(Color(red: 0, green: 0, blue: 0).opacity(0.10), lineWidth: 1)
+              )
+              .offset(x: -1.50, y: -10.50)
+              Text("gopay")
+                .font(Font.custom("Space Mono", size: 10).weight(.bold))
+                .tracking(0.35)
+                .lineSpacing(28)
+                .foregroundColor(.white)
+                .offset(x: -69.50, y: 18)
+              ZStack() {
+                Rectangle()
+                  .foregroundColor(.clear)
+                  .frame(width: 45, height: 45)
+                  .background(.white)
+                  .cornerRadius(8)
+                  .offset(x: 0, y: 0)
+                ZStack() {
+
+                }
+                .frame(width: 35, height: 35)
+                .offset(x: 0, y: 1)
+              }
+              .frame(width: 45, height: 45)
+              .cornerRadius(8)
+              .overlay(
+                RoundedRectangle(cornerRadius: 8)
+                  .inset(by: -1)
+                  .stroke(Color(red: 0, green: 0, blue: 0).opacity(0.10), lineWidth: 1)
+              )
+              .offset(x: -68.50, y: -10.50)
+              Text("ovo")
+                .font(Font.custom("Space Mono", size: 10).weight(.bold))
+                .tracking(0.35)
+                .lineSpacing(28)
+                .foregroundColor(.white)
+                .offset(x: -137, y: 18)
+              ZStack() {
+                Rectangle()
+                  .foregroundColor(.clear)
+                  .frame(width: 45, height: 45)
+                  .background(.white)
+                  .cornerRadius(8)
+                  .offset(x: 1, y: 0)
+              }
+              .frame(width: 45, height: 45)
+              .cornerRadius(8)
+              .overlay(
+                RoundedRectangle(cornerRadius: 8)
+                  .inset(by: -1)
+                  .stroke(Color(red: 0, green: 0, blue: 0).opacity(0.10), lineWidth: 1)
+              )
+              .offset(x: -137.50, y: -10.50)
+            }
+          }
+          .frame(width: 320, height: 66)
+          .offset(x: 4, y: 11)
+        }
+        .frame(width: 350, height: 104)
+        ZStack() {
+          Rectangle()
+            .foregroundColor(.clear)
+            .frame(width: 350, height: 116)
+            .background(Color(red: 0.10, green: 0.09, blue: 0.24))
+            .cornerRadius(5)
+            .offset(x: 0, y: 0)
+            .shadow(
+              color: Color(red: 0, green: 0, blue: 0, opacity: 0.25), radius: 4, y: 4
+            )
+          Text("Finansial")
+            .font(Font.custom("Asap", size: 12).weight(.semibold))
+            .tracking(0.35)
+            .foregroundColor(.white)
+            .offset(x: -141.50, y: -40)
+          ZStack() {
+            Group {
+              Text("ACC")
+                .font(Font.custom("Space Mono", size: 10).weight(.bold))
+                .tracking(0.35)
+                .lineSpacing(15)
+                .foregroundColor(.white)
+                .offset(x: 133.50, y: 21)
+              ZStack() {
+                Rectangle()
+                  .foregroundColor(.clear)
+                  .frame(width: 45, height: 45)
+                  .background(.white)
+                  .cornerRadius(8)
+                  .offset(x: 0, y: 0)
+                ZStack() {
+                  Group {
+
+                  }Group {
+
+                  }Group {
+
+                  }Group {
+
+                  }Group {
+
+                  }Group {
+
+                  }
+                }
+                .frame(width: 40, height: 40)
+                .offset(x: 0.50, y: 0.50)
+                VStack(spacing: 0) {
+
+                }
+                .padding(
+                  EdgeInsets(top: 0, leading: 2.42, bottom: 79, trailing: 52.58)
+                )
+                .frame(width: 95)
+                .offset(x: 137, y: 20)
+              }
+              .frame(width: 45, height: 45)
+              .cornerRadius(8)
+              .overlay(
+                RoundedRectangle(cornerRadius: 8)
+                  .inset(by: -1)
+                  .stroke(Color(red: 0, green: 0, blue: 0).opacity(0.10), lineWidth: 1)
+              )
+              .offset(x: 136, y: -13)
+              Text("Kredivo")
+                .font(Font.custom("Space Mono", size: 10).weight(.bold))
+                .tracking(0.35)
+                .lineSpacing(15)
+                .foregroundColor(.white)
+                .offset(x: 68, y: 21)
+              ZStack() {
+                Rectangle()
+                  .foregroundColor(.clear)
+                  .frame(width: 45, height: 45)
+                  .background(.white)
+                  .cornerRadius(8)
+                  .offset(x: 0, y: -1)
+                HStack(spacing: 0) {
+                  ZStack() { }
+                  .frame(width: 40, height: 15.13)
+                }
+                .frame(width: 40, height: 15.13)
+                .offset(x: 0.50, y: 0.07)
+              }
+              .frame(width: 45, height: 45)
+              .cornerRadius(8)
+              .overlay(
+                RoundedRectangle(cornerRadius: 8)
+                  .inset(by: -1)
+                  .stroke(Color(red: 0, green: 0, blue: 0).opacity(0.10), lineWidth: 1)
+              )
+              .offset(x: 68, y: -13)
+              Text("Pegadaian")
+                .font(Font.custom("Space Mono", size: 10).weight(.bold))
+                .tracking(0.35)
+                .lineSpacing(28)
+                .foregroundColor(.white)
+                .offset(x: -0.50, y: 21.50)
+              ZStack() {
+                Rectangle()
+                  .foregroundColor(.clear)
+                  .frame(width: 45, height: 45)
+                  .background(.white)
+                  .cornerRadius(8)
+                  .offset(x: 0, y: 0)
+              }
+              .frame(width: 45, height: 45)
+              .cornerRadius(8)
+              .overlay(
+                RoundedRectangle(cornerRadius: 8)
+                  .inset(by: -1)
+                  .stroke(Color(red: 0, green: 0, blue: 0).opacity(0.10), lineWidth: 1)
+              )
+              .offset(x: 0, y: -13)
+              Text("akulaku")
+                .font(Font.custom("Space Mono", size: 10).weight(.bold))
+                .tracking(0.35)
+                .lineSpacing(28)
+                .foregroundColor(.white)
+                .offset(x: -67, y: 21.50)
+              ZStack() {
+                Rectangle()
+                  .foregroundColor(.clear)
+                  .frame(width: 45, height: 45)
+                  .background(.white)
+                  .cornerRadius(8)
+                  .offset(x: 0, y: 0)
+              }
+              .frame(width: 45, height: 45)
+              .cornerRadius(8)
+              .overlay(
+                RoundedRectangle(cornerRadius: 8)
+                  .inset(by: -1)
+                  .stroke(Color(red: 0, green: 0, blue: 0).opacity(0.10), lineWidth: 1)
+              )
+              .offset(x: -67, y: -13)
+              Text("adakami")
+                .font(Font.custom("Space Mono", size: 10).weight(.bold))
+                .tracking(0.35)
+                .lineSpacing(28)
+                .foregroundColor(.white)
+                .offset(x: -136, y: 21.50)
+              ZStack() {
+                Rectangle()
+                  .foregroundColor(.clear)
+                  .frame(width: 108, height: 108)
+                  .background(.white)
+                  .cornerRadius(8)
+                  .offset(x: 0.50, y: 0.50)
+              }
+              .frame(width: 45, height: 45)
+              .cornerRadius(8)
+              .overlay(
+                RoundedRectangle(cornerRadius: 8)
+                  .inset(by: -1)
+                  .stroke(Color(red: 0, green: 0, blue: 0).opacity(0.10), lineWidth: 1)
+              )
+              .offset(x: -136, y: -12)
+            }
+          }
+          .frame(width: 317, height: 71)
+          .offset(x: 2.50, y: 6.50)
+        }
+        .frame(width: 350, height: 116)
+        ZStack() {
+          Group {
+            Rectangle()
+              .foregroundColor(.clear)
+              .frame(width: 350, height: 124)
+              .background(Color(red: 0.10, green: 0.09, blue: 0.24))
+              .cornerRadius(5)
+              .offset(x: 0, y: 0)
+              .shadow(
+                color: Color(red: 0, green: 0, blue: 0, opacity: 0.25), radius: 4, y: 4
+              )
+            Text("Card Payment")
+              .font(Font.custom("Asap", size: 12).weight(.semibold))
+              .tracking(0.35)
+              .lineSpacing(28)
+              .foregroundColor(.white)
+              .offset(x: -128, y: -42)
+            ZStack() {
+              Rectangle()
+                .foregroundColor(.clear)
+                .frame(width: 45, height: 45)
+                .background(.white)
+                .cornerRadius(8)
+                .offset(x: 0, y: 0)
+              HStack(alignment: .top, spacing: 1.07) {
+                ZStack() { }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+              }
+              .frame(width: 40, height: 13.17)
+              .offset(x: 0.50, y: -0.91)
+            }
+            .frame(width: 45, height: 45)
+            .cornerRadius(8)
+            .overlay(
+              RoundedRectangle(cornerRadius: 8)
+                .inset(by: -1)
+                .stroke(Color(red: 0, green: 0, blue: 0).opacity(0.10), lineWidth: 1)
+            )
+            .offset(x: -134.50, y: -5.50)
+            ZStack() {
+              Rectangle()
+                .foregroundColor(.clear)
+                .frame(width: 45, height: 45)
+                .background(.white)
+                .cornerRadius(8)
+                .offset(x: 0, y: 0)
+            }
+            .frame(width: 45, height: 45)
+            .cornerRadius(8)
+            .overlay(
+              RoundedRectangle(cornerRadius: 8)
+                .inset(by: -1)
+                .stroke(Color(red: 0, green: 0, blue: 0).opacity(0.10), lineWidth: 1)
+            )
+            .offset(x: -66.50, y: -5.50)
+            ZStack() {
+              Rectangle()
+                .foregroundColor(.clear)
+                .frame(width: 45, height: 45)
+                .background(.white)
+                .cornerRadius(8)
+                .offset(x: 0, y: 0)
+            }
+            .frame(width: 45, height: 45)
+            .cornerRadius(8)
+            .overlay(
+              RoundedRectangle(cornerRadius: 8)
+                .inset(by: -1)
+                .stroke(Color(red: 0, green: 0, blue: 0).opacity(0.10), lineWidth: 1)
+            )
+            .offset(x: 1.50, y: -5.50)
+            ZStack() {
+              Rectangle()
+                .foregroundColor(.clear)
+                .frame(width: 45, height: 45)
+                .background(.white)
+                .cornerRadius(8)
+                .offset(x: 0, y: 0)
+            }
+            .frame(width: 45, height: 45)
+            .cornerRadius(8)
+            .overlay(
+              RoundedRectangle(cornerRadius: 8)
+                .inset(by: -1)
+                .stroke(Color(red: 0, green: 0, blue: 0).opacity(0.10), lineWidth: 1)
+            )
+            .offset(x: 69.50, y: -5.50)
+            ZStack() {
+              Rectangle()
+                .foregroundColor(.clear)
+                .frame(width: 45, height: 45)
+                .background(.white)
+                .cornerRadius(8)
+                .offset(x: 0, y: 0)
+            }
+            .frame(width: 45, height: 45)
+            .cornerRadius(8)
+            .overlay(
+              RoundedRectangle(cornerRadius: 8)
+                .inset(by: -1)
+                .stroke(Color(red: 0, green: 0, blue: 0).opacity(0.10), lineWidth: 1)
+            )
+            .offset(x: 137.50, y: -5.50)
+            Text("Apple\nCard")
+              .font(Font.custom("Space Mono", size: 10).weight(.bold))
+              .tracking(0.35)
+              .lineSpacing(15)
+              .foregroundColor(.white)
+              .offset(x: -134.50, y: 32)
+            Text("Visa plus")
+              .font(Font.custom("Space Mono", size: 10).weight(.bold))
+              .tracking(0.35)
+              .lineSpacing(15)
+              .foregroundColor(.white)
+              .offset(x: -66, y: 25.50)
+            Text("Union Pay")
+              .font(Font.custom("Space Mono", size: 10).weight(.bold))
+              .tracking(0.35)
+              .lineSpacing(15)
+              .foregroundColor(.white)
+              .offset(x: 3, y: 25.50)
+          }Group {
+            Text("GPN")
+              .font(Font.custom("Space Mono", size: 10).weight(.bold))
+              .tracking(0.35)
+              .lineSpacing(15)
+              .foregroundColor(.white)
+              .offset(x: 137, y: 25.50)
+            Text("Master\nCard")
+              .font(Font.custom("Space Mono", size: 10).weight(.bold))
+              .tracking(0.35)
+              .lineSpacing(15)
+              .foregroundColor(.white)
+              .offset(x: 70.50, y: 33)
+          }
+        }
+        .frame(width: 350, height: 124)
+        ZStack() {
+          Rectangle()
+            .foregroundColor(.clear)
+            .frame(width: 350, height: 159)
+            .background(Color(red: 0.10, green: 0.09, blue: 0.24))
+            .cornerRadius(5)
+            .offset(x: 0, y: 0)
+            .shadow(
+              color: Color(red: 0, green: 0, blue: 0, opacity: 0.25), radius: 4, y: 4
+            )
+          Text("Supermarket")
+            .font(Font.custom("Asap", size: 13).weight(.semibold))
+            .tracking(0.35)
+            .lineSpacing(28)
+            .foregroundColor(.white)
+            .offset(x: -129, y: -65.50)
+          ZStack() {
+            Group {
+              ZStack() {
+                Rectangle()
+                  .foregroundColor(.clear)
+                  .frame(width: 45, height: 45)
+                  .background(.white)
+                  .cornerRadius(8)
+                  .offset(x: -0, y: 0)
+                ZStack() {
+
+                }
+                .frame(width: 35, height: 17.44)
+                .offset(x: 1, y: 0.22)
+              }
+              .frame(width: 45, height: 45)
+              .cornerRadius(8)
+              .overlay(
+                RoundedRectangle(cornerRadius: 8)
+                  .inset(by: -1)
+                  .stroke(Color(red: 0, green: 0, blue: 0).opacity(0.10), lineWidth: 1)
+              )
+              .offset(x: 140.50, y: -42.50)
+              Text("giant")
+                .font(Font.custom("Space Mono", size: 10).weight(.bold))
+                .tracking(0.35)
+                .lineSpacing(28)
+                .foregroundColor(.white)
+                .offset(x: 140.50, y: -14)
+              Text("alfamidi")
+                .font(Font.custom("Space Mono", size: 10).weight(.bold))
+                .tracking(0.35)
+                .lineSpacing(28)
+                .foregroundColor(.white)
+                .offset(x: -62, y: -14)
+              ZStack() {
+                Rectangle()
+                  .foregroundColor(.clear)
+                  .frame(width: 45, height: 45)
+                  .background(.white)
+                  .cornerRadius(8)
+                  .offset(x: -0, y: 1)
+                HStack(spacing: 0) {
+                  ZStack() {
+                    Group {
+
+                    }Group {
+
+                    }
+                  }
+                  .frame(width: 35, height: 9.23)
+                }
+                .frame(width: 35, height: 9.23)
+                .offset(x: 0, y: 0.11)
+              }
+              .frame(width: 45, height: 45)
+              .cornerRadius(8)
+              .overlay(
+                RoundedRectangle(cornerRadius: 8)
+                  .inset(by: -1)
+                  .stroke(Color(red: 0, green: 0, blue: 0).opacity(0.10), lineWidth: 1)
+              )
+              .offset(x: -63.50, y: -42.50)
+              ZStack() {
+                Rectangle()
+                  .foregroundColor(.clear)
+                  .frame(width: 45, height: 45)
+                  .background(.white)
+                  .cornerRadius(8)
+                  .offset(x: -0, y: 0)
+                HStack(spacing: 0) {
+                  ZStack() { }
+                  .frame(width: 35, height: 15.63)
+                }
+                .frame(width: 35, height: 15.63)
+                .offset(x: 1, y: 1.32)
+              }
+              .frame(width: 45, height: 45)
+              .cornerRadius(8)
+              .overlay(
+                RoundedRectangle(cornerRadius: 8)
+                  .inset(by: -1)
+                  .stroke(Color(red: 0, green: 0, blue: 0).opacity(0.10), lineWidth: 1)
+              )
+              .offset(x: -131.50, y: -42.50)
+              Text("alfamart")
+                .font(Font.custom("Space Mono", size: 10).weight(.bold))
+                .tracking(0.35)
+                .lineSpacing(28)
+                .foregroundColor(.white)
+                .offset(x: -132, y: -14)
+              ZStack() {
+                Rectangle()
+                  .foregroundColor(.clear)
+                  .frame(width: 45, height: 45)
+                  .background(.white)
+                  .cornerRadius(8)
+                  .offset(x: -0, y: 0)
+                HStack(spacing: 0) {
+                  ZStack() {
+                    ZStack() { }
+                    .frame(width: 21.72, height: 3.62)
+                    .offset(x: 0.04, y: -0.02)
+                  }
+                  .frame(width: 35, height: 10.85)
+                }
+                .frame(width: 35, height: 10.85)
+                .offset(x: 0.50, y: 0.50)
+              }
+              .frame(width: 45, height: 45)
+              .cornerRadius(8)
+              .overlay(
+                RoundedRectangle(cornerRadius: 8)
+                  .inset(by: -1)
+                  .stroke(Color(red: 0, green: 0, blue: 0).opacity(0.10), lineWidth: 1)
+              )
+              .offset(x: 4.50, y: -42.50)
+              Text("indomaret")
+                .font(Font.custom("Space Mono", size: 10).weight(.bold))
+                .tracking(0.35)
+                .lineSpacing(28)
+                .foregroundColor(.white)
+                .offset(x: 6, y: -14)
+              ZStack() {
+                Rectangle()
+                  .foregroundColor(.clear)
+                  .frame(width: 45, height: 45)
+                  .background(.white)
+                  .cornerRadius(8)
+                  .offset(x: -0, y: 0)
+              }
+              .frame(width: 45, height: 45)
+              .cornerRadius(8)
+              .overlay(
+                RoundedRectangle(cornerRadius: 8)
+                  .inset(by: -1)
+                  .stroke(Color(red: 0, green: 0, blue: 0).opacity(0.10), lineWidth: 1)
+              )
+              .offset(x: 72.50, y: -42.50)
+              Text("bright")
+                .font(Font.custom("Space Mono", size: 10).weight(.bold))
+                .tracking(0.35)
+                .lineSpacing(28)
+                .foregroundColor(.white)
+                .offset(x: 72.50, y: -14)
+            }Group {
+              ZStack() {
+                Rectangle()
+                  .foregroundColor(.clear)
+                  .frame(width: 45, height: 45)
+                  .background(.white)
+                  .cornerRadius(8)
+                  .offset(x: -0, y: 0)
+              }
+              .frame(width: 45, height: 45)
+              .cornerRadius(8)
+              .overlay(
+                RoundedRectangle(cornerRadius: 8)
+                  .inset(by: -1)
+                  .stroke(Color(red: 0, green: 0, blue: 0).opacity(0.10), lineWidth: 1)
+              )
+              .offset(x: 4.50, y: 22.50)
+              Text("yomart")
+                .font(Font.custom("Space Mono", size: 10).weight(.bold))
+                .tracking(0.35)
+                .lineSpacing(28)
+                .foregroundColor(.white)
+                .offset(x: 4.50, y: 51)
+              ZStack() {
+                Rectangle()
+                  .foregroundColor(.clear)
+                  .frame(width: 45, height: 45)
+                  .background(.white)
+                  .cornerRadius(8)
+                  .offset(x: 0, y: 0)
+                ZStack() { }
+                .frame(width: 35, height: 38)
+                .offset(x: 0, y: -0.50)
+              }
+              .frame(width: 45, height: 45)
+              .cornerRadius(8)
+              .overlay(
+                RoundedRectangle(cornerRadius: 8)
+                  .inset(by: -1)
+                  .stroke(Color(red: 0, green: 0, blue: 0).opacity(0.10), lineWidth: 1)
+              )
+              .offset(x: -131.50, y: 22.50)
+              ZStack() {
+                Rectangle()
+                  .foregroundColor(.clear)
+                  .frame(width: 45, height: 45)
+                  .background(.white)
+                  .cornerRadius(8)
+                  .offset(x: 0, y: 0)
+              }
+              .frame(width: 45, height: 45)
+              .cornerRadius(8)
+              .overlay(
+                RoundedRectangle(cornerRadius: 8)
+                  .inset(by: -1)
+                  .stroke(Color(red: 0, green: 0, blue: 0).opacity(0.10), lineWidth: 1)
+              )
+              .offset(x: 72.50, y: 22.50)
+              Text("Circle K")
+                .font(Font.custom("Space Mono", size: 10).weight(.bold))
+                .tracking(0.35)
+                .lineSpacing(28)
+                .foregroundColor(.white)
+                .offset(x: -137, y: 51)
+              ZStack() {
+                Rectangle()
+                  .foregroundColor(.clear)
+                  .frame(width: 45, height: 45)
+                  .background(.white)
+                  .cornerRadius(8)
+                  .offset(x: 0, y: 0)
+                HStack(spacing: 0) {
+                  ZStack() {
+                    Group {
+
+                    }Group {
+
+                    }Group {
+
+                    }
+                  }
+                  .frame(width: 40, height: 17.81)
+                }
+                .frame(width: 40, height: 17.81)
+                .offset(x: -0.50, y: 0.40)
+              }
+              .frame(width: 45, height: 45)
+              .cornerRadius(8)
+              .overlay(
+                RoundedRectangle(cornerRadius: 8)
+                  .inset(by: -1)
+                  .stroke(Color(red: 0, green: 0, blue: 0).opacity(0.10), lineWidth: 1)
+              )
+              .offset(x: -63.50, y: 22.50)
+              ZStack() {
+                Rectangle()
+                  .foregroundColor(.clear)
+                  .frame(width: 45, height: 45)
+                  .background(.white)
+                  .cornerRadius(8)
+                  .offset(x: 0, y: 0)
+                HStack(spacing: 0) {
+                  ZStack() {
+                    ZStack() { }
+                    .frame(width: 25.09, height: 12.99)
+                    .offset(x: -7.45, y: 0)
+                    ZStack() { }
+                    .frame(width: 24.40, height: 4.53)
+                    .offset(x: 7.80, y: 0.05)
+                  }
+                  .frame(width: 40, height: 12.99)
+                }
+                .frame(width: 40, height: 12.99)
+                .offset(x: -0.23, y: 0.74)
+              }
+              .frame(width: 45, height: 45)
+              .cornerRadius(8)
+              .overlay(
+                RoundedRectangle(cornerRadius: 8)
+                  .inset(by: -1)
+                  .stroke(Color(red: 0, green: 0, blue: 0).opacity(0.10), lineWidth: 1)
+              )
+              .offset(x: 140.50, y: 22.50)
+              Text("Hypermart")
+                .font(Font.custom("Space Mono", size: 10).weight(.bold))
+                .tracking(0.35)
+                .lineSpacing(28)
+                .foregroundColor(.white)
+                .offset(x: 75, y: 51)
+              Text("Lotte")
+                .font(Font.custom("Space Mono", size: 10).weight(.bold))
+                .tracking(0.35)
+                .lineSpacing(28)
+                .foregroundColor(.white)
+                .offset(x: 142.50, y: 51)
+              Text("Dan+Dan")
+                .font(Font.custom("Space Mono", size: 10).weight(.bold))
+                .tracking(0.35)
+                .lineSpacing(28)
+                .foregroundColor(.white)
+                .offset(x: -63.50, y: 51)
+            }
+          }
+          .frame(width: 326, height: 130)
+          .offset(x: -2, y: 14.50)
+        }
+        .frame(width: 350, height: 159)
+        ZStack() {
+          Rectangle()
+            .foregroundColor(.clear)
+            .frame(width: 350, height: 116)
+            .background(Color(red: 0.10, green: 0.09, blue: 0.24))
+            .cornerRadius(5)
+            .offset(x: 0, y: 0)
+            .shadow(
+              color: Color(red: 0, green: 0, blue: 0, opacity: 0.25), radius: 4, y: 4
+            )
+          Text("Bank")
+            .font(Font.custom("Space Mono", size: 12).weight(.bold))
+            .tracking(0.35)
+            .lineSpacing(28)
+            .foregroundColor(.white)
+            .offset(x: -151.50, y: -47)
+          ZStack() {
+            Group {
+              ZStack() {
+                Rectangle()
+                  .foregroundColor(.clear)
+                  .frame(width: 45, height: 45)
+                  .background(.white)
+                  .cornerRadius(8)
+                  .offset(x: 0, y: 0)
+              }
+              .frame(width: 45, height: 45)
+              .cornerRadius(8)
+              .overlay(
+                RoundedRectangle(cornerRadius: 8)
+                  .inset(by: -1)
+                  .stroke(Color(red: 0.80, green: 0.80, blue: 0.80), lineWidth: 1)
+              )
+              .offset(x: 136, y: -14)
+              Text("Livin")
+                .font(Font.custom("Space Mono", size: 10).weight(.bold))
+                .tracking(0.35)
+                .lineSpacing(28)
+                .foregroundColor(.white)
+                .offset(x: 139, y: 22.50)
+              ZStack() {
+                Rectangle()
+                  .foregroundColor(.clear)
+                  .frame(width: 45, height: 45)
+                  .background(.white)
+                  .cornerRadius(8)
+                  .offset(x: 0, y: 0)
+              }
+              .frame(width: 45, height: 45)
+              .cornerRadius(8)
+              .overlay(
+                RoundedRectangle(cornerRadius: 8)
+                  .inset(by: -1)
+                  .stroke(Color(red: 0.80, green: 0.80, blue: 0.80), lineWidth: 1)
+              )
+              .offset(x: 68, y: -14)
+              Text("NEO BANK")
+                .font(Font.custom("Space Mono", size: 10).weight(.bold))
+                .tracking(0.35)
+                .lineSpacing(28)
+                .foregroundColor(.white)
+                .offset(x: 70.50, y: 22.50)
+              ZStack() {
+                Rectangle()
+                  .foregroundColor(.clear)
+                  .frame(width: 45, height: 45)
+                  .background(.white)
+                  .cornerRadius(8)
+                  .offset(x: 0, y: 0)
+              }
+              .frame(width: 45, height: 45)
+              .cornerRadius(8)
+              .overlay(
+                RoundedRectangle(cornerRadius: 8)
+                  .inset(by: -1)
+                  .stroke(Color(red: 0.80, green: 0.80, blue: 0.80), lineWidth: 1)
+              )
+              .offset(x: 0, y: -14)
+              Text("JAGO")
+                .font(Font.custom("Space Mono", size: 10).weight(.bold))
+                .tracking(0.35)
+                .lineSpacing(28)
+                .foregroundColor(.white)
+                .offset(x: -0.50, y: 22.50)
+              ZStack() {
+                Rectangle()
+                  .foregroundColor(.clear)
+                  .frame(width: 45, height: 45)
+                  .background(.white)
+                  .cornerRadius(8)
+                  .offset(x: 0, y: 0)
+              }
+              .frame(width: 45, height: 45)
+              .cornerRadius(8)
+              .overlay(
+                RoundedRectangle(cornerRadius: 8)
+                  .inset(by: -1)
+                  .stroke(Color(red: 0.80, green: 0.80, blue: 0.80), lineWidth: 1)
+              )
+              .offset(x: -68, y: -14)
+              Text("BRI")
+                .font(Font.custom("Space Mono", size: 10).weight(.bold))
+                .tracking(0.35)
+                .lineSpacing(28)
+                .foregroundColor(.white)
+                .offset(x: -68.50, y: 22.50)
+              ZStack() {
+                Rectangle()
+                  .foregroundColor(.clear)
+                  .frame(width: 45, height: 45)
+                  .background(.white)
+                  .cornerRadius(8)
+                  .offset(x: 0, y: 0)
+                ZStack() {
+                  ZStack() {
+                    ZStack() {
+                      Group {
+
+                      }
+                    }
+                    .frame(width: 31.51, height: 23.17)
+                    .offset(x: 0.02, y: 0.03)
+                  }
+                  .frame(width: 41, height: 41)
+                  .offset(x: 0, y: 0)
+                }
+                .frame(width: 41, height: 41)
+                .offset(x: 0, y: 0)
+              }
+              .frame(width: 45, height: 45)
+              .cornerRadius(8)
+              .overlay(
+                RoundedRectangle(cornerRadius: 8)
+                  .inset(by: -1)
+                  .stroke(Color(red: 0.80, green: 0.80, blue: 0.80), lineWidth: 1)
+              )
+              .offset(x: -136, y: -14)
+              Text("BCA")
+                .font(Font.custom("Space Mono", size: 10).weight(.bold))
+                .tracking(0.35)
+                .lineSpacing(28)
+                .foregroundColor(.white)
+                .offset(x: -136.50, y: 22.50)
+            }
+          }
+          .frame(width: 317, height: 73)
+          .offset(x: 2.50, y: 9.50)
+        }
+        .frame(width: 350, height: 116)
+      }
+      .padding(EdgeInsets(top: 0, leading: 4, bottom: 8, trailing: 4))
+      .frame(maxWidth: .infinity, maxHeight: .infinity)
+    }
+    .frame(width: 358)
+    .offset(x: 0.50, y: 234)
+  }
+}
+.frame(width: 393, height: 852)
+.background(Color(red: 0.10, green: 0.09, blue: 0.24))
+.cornerRadius(25)

@@ -1,0 +1,12 @@
+name: kocek_ewallet_app
+description: An advanced monorepo flutter boilerplate.
+publish_to: none
+version: 0.0.1
+
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+
+dev_dependencies:
+  custom_lint: ^0.5.7
+  melos: ^3.4.0
+  pyramid_lint: ^1.2.0

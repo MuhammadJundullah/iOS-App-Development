@@ -1,0 +1,28 @@
+name: feature_core
+description: Core for all features of kocek ewallet.
+publish_to: none
+version: 0.0.1
+
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+
+dependencies:
+  deps:
+    path: ../../deps
+  feature_auth:
+    path: ../auth
+  feature_user:
+    path: ../user
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+
+dev_dependencies:
+  auto_route_generator: ^7.3.2
+  build_runner: ^2.4.7
+  injectable_generator: ^2.4.1
+  pyramid_lint: ^1.2.0
+  slang_build_runner: ^3.28.0

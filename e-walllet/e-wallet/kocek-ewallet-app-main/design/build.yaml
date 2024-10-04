@@ -1,0 +1,15 @@
+targets:
+  $default:
+    builders:
+      slang_build_runner:
+        options:
+          locale_handling: false
+          translation_class_visibility: public
+          fallback_strategy: base_locale
+          input_directory: lib/_core/_i18n
+          output_directory: lib/_core/_i18n
+          output_file_name: translations.g.dart
+          key_case: camel
+          key_map_case: camel
+          param_case: camel
+          flat_map: false

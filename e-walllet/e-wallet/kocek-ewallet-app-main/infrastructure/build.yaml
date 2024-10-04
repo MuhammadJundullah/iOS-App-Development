@@ -1,0 +1,42 @@
+targets:
+  $default:
+    builders:
+      # Envied
+      envied_generator:
+        generate_for:
+          include:
+            - lib/flavors/*.dart
+      # Freezed
+      freezed:
+        options:
+          map: false
+          when:
+            when: false
+            maybe_when: false
+            when_or_null: true
+        generate_for:
+          include:
+            - lib/networking/**/*.model.dart
+            - lib/theming/**/*.model.dart
+            - lib/theming/**/*.cubit.dart
+      # Json Serializable
+      json_serializable:
+        options:
+          create_factory: true
+          create_to_json: true
+          explicit_to_json: true
+          field_rename: snake
+          include_if_null: true
+        generate_for:
+          include:
+            - lib/networking/**/*.model.dart
+            - lib/theming/**/*.model.dart
+      # Injectable
+      injectable_generator:
+        generate_for:
+          include:
+            - lib/_di/*.dart
+            - lib/analytics/**/*.dart
+            - lib/networking/**/*.dart
+            - lib/storage/**/*.dart
+            - lib/theming/**/*.dart
